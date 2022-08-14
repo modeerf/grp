@@ -1,4 +1,4 @@
-package server
+package github.com/modeerf/grp/server
 
 import (
 	"crypto/tls"
