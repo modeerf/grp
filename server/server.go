@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"grp/radius"
 	log "github.com/inconshreveable/log15"
+	"github.com/modeerf/grp/radius"
 )
 
 var testHookListenAndServe func(*Server, net.Listener) // used if non-nil
